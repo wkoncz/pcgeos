@@ -2302,8 +2302,8 @@ This message flips the GrObj about its horizontal axis.
 ----------
 #### MSG_GO_ROTATE
     void    MSG_GO_ROTATE (
-            WWFixed                     angle,
-            GrObjHandleSpecification    center);
+            GrObjHandleSpecification    center,
+            WWFixedAsDWord              angle );
 
 This message rotates the GrObj about one of its handles.
 
@@ -3019,4 +3019,5 @@ data: *GVI_guardian*, which holds the optr of the ward's guardian object.
 #### MSG_GV_SET_VIS_BOUNDS 
 
 [The Spool Library](oprint.md) <-- [Table of Contents](../objects.md) &nbsp;&nbsp; --> [Ruler Object Library](oruler.md)
+
 
